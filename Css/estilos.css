@@ -1,0 +1,137 @@
+@import url("reset.css"); /* @ el arroba es para importar despues import url () en el parentesis va la ruta del archivo a importar  */
+body{ 
+	/*background-color: Black;  Para cambiar el color de fondo */
+	background: rgb(252,234,187); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+	margin: 0.3%;
+		
+}
+header{
+	width:69%;
+	height:100px;
+	padding: 0px 15%; 
+	margin: 0.3% auto;
+	border:5px solid white;
+	text-align: center;
+	background: rgb(30,87,153); 
+	background: -moz-linear-gradient(top,  rgba(30,87,153,1) 4%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); 
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 4%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); 
+	background: linear-gradient(to bottom,  rgba(30,87,153,1) 4%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); 
+
+}
+
+.Principal{
+	width: 30%;
+	float: left;
+	padding: 2% 0px;
+	
+	}
+
+.Principal a{
+	font-size: 30px;
+ 	font: bold 40px cursive;
+	color: Black;
+	text-decoration: none;
+	
+}
+.Principal a:hover{
+	background-color: green;
+	color: white ;
+	}
+.menu{
+	width: 50%;
+	float: right;
+	
+}
+.menu a{
+	color:black;
+	text-decoration: none;
+}
+.menu li {
+	display: inline-flex;
+	/*margin-right: 30px;*/
+	font-size:22px;
+	padding: 2% ; 
+	}
+	.menu li a:hover{
+		background-color: yellow;
+		color: red;
+		
+	}
+.Contenido{
+	float: left;
+	margin: auto;
+	border:5px solid white;
+	width: 79%;
+	padding: 1.5%;
+	/*background-color: Black;  Para cambiar el color de fondo */
+	background: rgb(252,234,187); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+	margin: 0.3%;
+	
+}
+.Contenido h1{
+	font-size: 35px;
+	font-family: fantasy;
+}
+.Contenido h3{
+
+}
+.Contenido p{
+	font-size: bold 15px;
+	font-family: sans-serif;
+
+}
+.Contenido img{
+	width:350px;
+	margin:15px;
+	border:5px solid red;
+	margin:auto;
+	background-color:red;
+}
+.Contenido hr{
+
+}
+.SegundoContenido{
+	float:right;
+	margin:auto;
+	width: 15.5%;
+	background: rgb(206,220,231); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+
+}
+.SegundoContenido img{
+	float: left;
+	width: 175px;
+	height:125%;
+	margin: 3px;
+	border: red 5px solid;
+}
+.SegundoContenido table{
+	margin:auto;
+	float:right;
+	text-align: left;
+	font-size: 20px;
+	border: 5px solid white;
+    border-collapse: collapse;
+	width: 45%;
+	height:45%;
+}
+.SegundoContenido a{
+	float:right;
+	color:yellow;
+	
+
+}
+
+/*---------------------Aqui inica la Administracion de la seguna pagina web  ---------------------*/
